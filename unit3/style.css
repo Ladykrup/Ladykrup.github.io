@@ -10,6 +10,9 @@ body {
 	background-repeat: no-repeat;
 }
 
+body style {
+	background: cover;
+}
 
 
 h1 {
