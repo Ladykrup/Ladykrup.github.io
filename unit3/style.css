@@ -6,13 +6,10 @@ p {
 
 body {
 	background: url("images/background.jpg");
-	background-size: 80px 60px;
+	
 	background-repeat: no-repeat;
 }
 
-body style {
-	background: cover;
-}
 
 
 h1 {
