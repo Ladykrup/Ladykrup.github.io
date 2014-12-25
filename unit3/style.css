@@ -10,6 +10,11 @@ body {
 
 #background {
 	background-image: url("images/background.jpg")
+
+}
+.border {
+	border-top: 30px
+	border-image: url("images/stripes.png")
 }
 
 h1 {
