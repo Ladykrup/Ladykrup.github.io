@@ -5,12 +5,12 @@ p {
 
 
 body {
-	background: url("images/background.jpg");
 	
-	background-repeat: no-repeat;
 }
 
-
+#background {
+	background-image: url("images/background.jpg")
+}
 
 h1 {
 	font-size: 50px;
