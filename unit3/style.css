@@ -1,0 +1,40 @@
+p {
+	font-size: 30px;
+	color: white;
+}
+
+
+body {
+	background-image: url(images/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+hr {
+	border-top: url("images/stripes.png");
+}
+
+h1 {
+	font-size: 50px;
+	font-family: sans-serif;
+	color: white;
+	padding-top: 200px;
+}
+hr {
+	border-color: red;
+}	
+
+title {
+	font-weight: bolder;
+}
+
+hr {
+
+}
+
+}
+a {
+}
+	
+
+}
