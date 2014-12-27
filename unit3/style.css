@@ -2,19 +2,22 @@ p {
 	font-size: 25px;
 	color: white;
 	font-family: arial;
+	margin-left: 200px;
 }
 
-
+#logo {
+	content: url("css/logo-taasky.png");
+	padding: 100px;
+	margin: relative left: 50px;
+	
+}
 body {
 	background: url("css/background.jpg");
 	background-repeat: no repeat;
 	background-size: cover;		
-}
 
-.logo {
-	content: url("css/logo-taasky.png");
-	padding: 150px;
-	margin-right: 300px;
+
+
 	
 
 }
@@ -22,6 +25,7 @@ body {
 
 .store {
 	content: url("css/btn_store.png");
+	margin-left: 200px;
 }
 
 
@@ -36,7 +40,7 @@ h1 {
 hr {
 	width: 5%;
 	border-color: red;
-	margin-left: 0;
+	margin-left: 200px;
 }	
 
 title {
