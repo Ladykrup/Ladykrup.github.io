@@ -4,15 +4,23 @@ p {
 	font-family: arial;
 }
 
-.stripe {
-	content: url ("css/stripe.png");
-}
 
 body {
 	background: url("css/background.jpg");
 	background-repeat: no repeat;
-	background-size: cover;
+	background-size: cover;		
 }
+
+.logo {
+	content: url("css/logo-taasky.png");
+	padding: 150px;
+	
+
+}
+.stripes {
+	border-image: url("css/stripes.png");
+}
+
 .store {
 	content: url("css/btn_store.png");
 }
