@@ -14,12 +14,11 @@ body {
 .logo {
 	content: url("css/logo-taasky.png");
 	padding: 150px;
+	margin-right: 300px;
 	
 
 }
-.stripes {
-	border-image: url("css/stripes.png");
-}
+
 
 .store {
 	content: url("css/btn_store.png");
