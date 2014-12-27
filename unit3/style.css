@@ -3,15 +3,16 @@ p {
 	color: white;
 	font-family: arial;
 }
-.line {
-	content:url("css/stripes.png");
-}
+
+
 
 body {
 	background: url("css/background.jpg");
 	background-repeat: no repeat;
 	background-size: cover;
 }
+
+
 	
 h1 {
 	font-size: 50px;
