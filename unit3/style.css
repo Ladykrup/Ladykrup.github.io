@@ -4,12 +4,17 @@ p {
 	font-family: arial;
 }
 
-
+.stripe {
+	content: url ("css/stripe.png");
+}
 
 body {
 	background: url("css/background.jpg");
 	background-repeat: no repeat;
 	background-size: cover;
+}
+.store {
+	content: url("css/btn_store.png");
 }
 
 
