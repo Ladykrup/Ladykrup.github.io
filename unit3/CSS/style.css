@@ -1,14 +1,11 @@
 p {
-	font-size: 25px;
+	font-size: 30px;
 	color: white;
-	font-family: arial;
-}
-.line {
-	content:url("css/stripes.png");
 }
 
+
 body {
-	background: url("css/background.jpg");
+	background: url("unit3/images/background.jpg");
 	background-repeat: no repeat;
 	background-size: cover;
 }
@@ -21,9 +18,8 @@ h1 {
 }
 
 hr {
-	width: 5%;
 	border-color: red;
-	margin-left: 0;
+	border-width: 5%;
 }	
 
 title {
