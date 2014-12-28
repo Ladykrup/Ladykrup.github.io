@@ -9,13 +9,15 @@ body {
 	background: url("assets/background.jpg");
 	background-repeat: no repeat;
 	background-size: cover;
+	padding: 270px;
+	position: relative;
+	left: -150px;
 
 }
-.store {
 
-	 url("assets/btn_store.png");
 
-	 	 }
+
+	 	 
 	
 h1 {
 	font-size: 50px;
@@ -27,6 +29,9 @@ h1 {
 hr {
 	border-color: red;
 	border-width: 5%;
+	width: 10%;
+	position: relative;
+	left: -310px;
 }	
 
 title {
