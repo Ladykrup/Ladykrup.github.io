@@ -16,10 +16,7 @@ body {
 	background: url("css/background.jpg");
 	background-repeat: no repeat;
 	background-size: cover;		
-
-
-
-	
+	border-top-image: url("css/stripes.png");	
 
 }
 
