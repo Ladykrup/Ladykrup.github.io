@@ -1,9 +1,18 @@
-p {
-	font-size: 30px;
-	color: white;
 
+/*}
+
+#top {
+	background-image: url("assets/stripes.png");
 }
 
+}*/
+hr {
+	border-color: red;
+	border-width: 5%;
+	width: 10%;
+	position: relative;
+	left: -310px;
+}	
 
 body {
 	background: url("assets/background.jpg");
@@ -13,30 +22,26 @@ body {
 	position: relative;
 	left: -150px;
 
+
 }
 
-
+p {
+	font-size: 30px;
+	color: white;
+	font-family: sans-serif;
 
 	 	 
 	
-h1 {
+/*h1 {
 	font-size: 50px;
-	font-family: sans-serif;
+	
 	color: white;
 	padding-top: 200px;
-}
+}*/
 
-hr {
-	border-color: red;
-	border-width: 5%;
-	width: 10%;
-	position: relative;
-	left: -310px;
-}	
 
-title {
-	font-weight: bold;
-}
+
+
 
 	
 
