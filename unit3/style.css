@@ -1,11 +1,11 @@
 
-/*}
+
 
 #top {
 	background-image: url("assets/stripes.png");
 }
 
-}*/
+
 hr {
 	border-color: red;
 	border-width: 5%;
@@ -21,8 +21,6 @@ body {
 	padding: 270px;
 	position: relative;
 	left: -150px;
-
-
 }
 
 p {
