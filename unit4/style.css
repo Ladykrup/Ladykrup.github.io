@@ -8,11 +8,11 @@ body {
 
 
 h1 {
-	font-family: 'Ultra', serif;
-	font-size: 100px;
+	font-family: 'Lobster', cursive;
 	color: #00ff00;
 	font-style: bolder;
 	text-align: center;
+	font-size: 50px;
 	
     
     text-transform: uppercase;
@@ -20,7 +20,7 @@ h1 {
 }
 
 h2 {
-	font-family: 'News Cycle', sans-serif;
+	font-family: 'Lobster', cursive;
 	font-size: 40px;
 	color: #00ff00;
 	text-align: center;
@@ -67,12 +67,12 @@ h3 {
 }*/
 
 p {
-	color: #00ff00;
+	color: #ff1919;
 	text-align: left;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Lobster', cursive;
 	font-size: 75px;
 	margin-left: 0;
-	
+	font-weight: bolder;
 }
 
 
