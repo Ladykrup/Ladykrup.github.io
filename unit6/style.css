@@ -33,19 +33,21 @@ ul {
 	color: #f2f2f2;
 }
 
-nav a {
+#navi {
 	font-family:'PT Sans', sans-serif;
 	font-size: 30px;
 	border: 5px black;
-	display: block;
+	
 	background-color: #cfcfcf;
 	text-decoration: none;
 	color: black;
 	float: left;
+	width: 1800px;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
 }
-nav a {
-	
-}
+
 #about {
 	
 	height: 20px;
