@@ -3,7 +3,7 @@ h1 {
 	font-size: 50px;
 	margin-top: 100px;
     text-align: center;
-    color: #aaaaaa;
+    color: #094346;
 }
 h2 {
 	font-family: 'PT Sans', sans-serif;
@@ -22,9 +22,10 @@ li {
 }
 header {
 
-padding:20px;
+padding:10px;
 margin: 5px;
-color: #cccccc;
+background-image: url("images/garden.jpg");
+background-repeat: repeat;
 }
 section {
 	background-color: #7f7f7f;
