@@ -12,13 +12,13 @@ h2 {
 p {
 	font-family: 'PT Sans', sans-serif;
 	font-size: 30px;
-	color: #e3e3e3;
+	color: #094346;
 
 }
 li {
 	font-family: 'PT Sans', sans-serif;
 	font-size: 30px;
-	color: #f5f5f5;
+	color: #094346;
 }
 header {
 
@@ -31,34 +31,47 @@ section {
 	background-color: #7f7f7f;
 }
 ul {
-	color: #f2f2f2;
+	color: #094346;
 }
 
-#navi {
+nav a {
 	font-family:'PT Sans', sans-serif;
 	font-size: 30px;
 	border: 5px black;
 	
-	background-color: #cfcfcf;
+	background-color: #B8FFDB;
 	text-decoration: none;
-	color: black;
-	float: left;
+	color: #094346;
+	float: right;
 	width: 1800px;
-	margin: 0 auto;
+	
 	display: block;
 	text-align: center;
 }
+/*nav a {
+	text-decoration: none;
+	text-align: center;
+	width: 1800px;
+	display: block;
+	background-color: #B8FFDB;
+	float: left;
+}*/
+#dog {
+
+}
+
 
 #about {
 	
-	height: 20px;
+	height: 10px;
 	text-align: center;
-	color:#f5f5f5;
+	color:#094346;
 	border: 5px solid black;
 	padding: 200px;
+
 	margin: auto;
 	text-decoration: none;
-	color: black;
+	color: #094346;
 	
 }
 
