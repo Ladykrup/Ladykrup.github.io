@@ -15,11 +15,11 @@ p {
 	color: #094346;
 
 }
-li {
+/*li {
 	font-family: 'PT Sans', sans-serif;
 	font-size: 30px;
 	color: #094346;
-}
+}*/
 header {
 
 padding:10px;
@@ -31,23 +31,37 @@ background-size: 100% 100%;
 section {
 	background-color: #7f7f7f;
 }
-ul {
+/*ul {
 	color: #094346;
-}
+}*/
 
-nav a {
+ul {
 	font-family:'PT Sans', sans-serif;
 	font-size: 30px;
 	border: 5px black;
+	font-weight: bold;
 	
 	background-color: #B8FFDB;
+	list-style-type: none;
 	text-decoration: none;
 	color: #094346;
-	float: right;
+	float: left;
 	width: 1800px;
+	height: 60px;
 	
-	display: block;
+	display: inline;
 	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+li {
+	float: left;
+	padding: 30px;
+}
+a { display: block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-decoration: none;
 }
 /*nav a {
 	text-decoration: none;
@@ -80,7 +94,21 @@ nav a {
 	
 
 }
+#blue {
+	height: 120px;
+	width: auto;
+}
 img {
 	border:1px solid #021a40;
 	
+}
+#logo {
+	float right;
+}
+footer {
+	text-align: center;
+
+}
+a footer {
+	font-size: 20px;
 }
