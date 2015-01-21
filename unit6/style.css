@@ -25,7 +25,8 @@ header {
 padding:10px;
 margin: 5px;
 background-image: url("images/garden.jpg");
-background-repeat: repeat;
+background: no-repeat: repeat;
+background-size: 100% 100%;
 }
 section {
 	background-color: #7f7f7f;
