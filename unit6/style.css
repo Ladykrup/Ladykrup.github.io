@@ -1,17 +1,28 @@
+
+body {
+	font-family: "lobster", sans-serif;
+	font-size: 16px;
+	background: #DAF4F0;
+}
+
+
+
+
+
 h1 {
-	font-family: 'PT Sans', sans-serif;
-	font-size: 50px;
+	font-family: 'lobster', sans-serif;
+	font-size: 5em;
 	margin-top: 100px;
     text-align: center;
     color: #094346;
 }
 h2 {
 	font-family: 'PT Sans', sans-serif;
-	font-size: 50px;
+	font-size: 3em;
 }
 p {
 	font-family: 'PT Sans', sans-serif;
-	font-size: 30px;
+	font-size: 1em;
 	color: #094346;
 
 }
@@ -39,14 +50,14 @@ section {
 
 ul {
 	font-family:'PT Sans', sans-serif;
-	font-size: 30px;
+	font-size: 3em;
 	border: 5px black;
 	font-weight: bold;
 	
 	background-color: #C2F2EA;
 	list-style-type: none;
 	text-decoration: none;
-	color: #094346;
+	color: #120A8F;
 	float: left;
 	width: 1800px;
 	height: 75px;
@@ -60,7 +71,13 @@ ul {
 li {
 	float: left;
 	padding: 30px;
+
 }
+li:hover {
+	background-color: red;
+
+}
+
 a { display: block;
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -118,7 +135,7 @@ footer {
 footer a{
 	text-decoration: none;
 	font-family:'PT Sans', sans-serif;
-	font-size: 30px;
+	font-size: 2em;
 
 }
 /*a footer {
