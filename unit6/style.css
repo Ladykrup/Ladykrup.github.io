@@ -13,7 +13,7 @@ body {
     color: #094346;
 }*/
 h2 {
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'lora', serif;
 	font-size: 2em;
 }
 p {
@@ -22,7 +22,8 @@ p {
 	color: #094346;
 }
 li {
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'play', sans-serif;
+	font-weight: bolder;
 	font-size: 1em;
 	color: #094346;
 }
@@ -110,8 +111,9 @@ li :hover {
 
 
 #pics {
-	margin-top: 100px;
-	margin-bottom: 20px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	
 }
 
 
