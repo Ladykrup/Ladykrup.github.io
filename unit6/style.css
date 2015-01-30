@@ -72,6 +72,11 @@ nav a {
 li :hover {
 	background-color: #7EB6FF;
 }
+
+
+
+
+
 /*#boxes {
 	
 	margin-top: 200px;
@@ -176,4 +181,10 @@ footer {
 	
 	
 
+}
+
+.clearfix:after{
+     content:'';
+     display:block;
+     clear:both;
 }
