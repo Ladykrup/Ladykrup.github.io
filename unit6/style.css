@@ -72,6 +72,11 @@ nav a {
 li :hover {
 	background-color: #7EB6FF;
 }
+
+
+
+
+
 /*#boxes {
 	
 	margin-top: 200px;
@@ -175,10 +180,14 @@ footer {
  .longhorn{ 
 	padding-top: 40px;
 	
+
+	
+
 }
+
 .clearfix:after{
-	content:"";
-	display: block;
-	clear: both;
-}
+     content:'';
+     display:block;
+     clear:both;
+>>>>>>> FETCH_HEAD
 }
