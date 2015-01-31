@@ -8,6 +8,7 @@ body {
 h2 {
 	font-family: 'lora', serif;
 	font-size: 2em;
+	text-align: center;
 	
 }
 
@@ -15,6 +16,8 @@ p {
 	font-family: 'PT Sans', sans-serif;
 	font-size: 1em;
 	color: #094346;
+	text-align: center;
+
 }
 
 li {
@@ -113,6 +116,7 @@ li :hover {
 	margin-top: 80px;
 	margin-bottom: 10px;	
 	padding-left: 50px;
+	
 	
 }
 
