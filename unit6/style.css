@@ -75,37 +75,25 @@ li :hover {
 	padding-left: 50px;
 	
 }
+div #container{
+	float: right;
 
-/*#pics{
-	position: absolute;
-	float: left;
-
-	
-}*/
+}
 
 figure .dog{
-	float: right;
+	
 	border: solid black;
-	margin-left: 700px;
-
-	
-
-	
+		
 }
 
 figure .blue {
-	float: right;
-	padding-left: 700px;
-
-
-
+	
 }
 
 header img {
 	margin: 0px auto;
 	display: block;
 	padding-top: 25px;
-
 	
 }
 footer {
@@ -131,8 +119,6 @@ figure .longhorn{
 	padding-bottom: 1000px;	
 	padding-left: 150px;
 	position: relative;	
-	
-
 
 }
 
