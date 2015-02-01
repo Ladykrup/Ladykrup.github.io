@@ -76,11 +76,19 @@ li :hover {
 	
 }
 div #container{
-	float: right;
+	width: 600px;
+	margin: 0 auto;
+
+
+}
+.pic{
+	width: 365px;
+	padding: 0 5px;
+	float: left;
 
 }
 
-figure .dog{
+/*figure .dog{
 	
 	border: solid black;
 		
@@ -88,7 +96,7 @@ figure .dog{
 
 figure .blue {
 	
-}
+}*/
 
 header img {
 	margin: 0px auto;
@@ -104,6 +112,8 @@ footer {
 	font-size: 2em;
 	font-family:'lobster', sans-serif;
 	margin-top: 100px;
+	clear: both;
+
 }
 
  footer p a {
@@ -115,12 +125,12 @@ footer {
 	text-decoration: none;
 
 }
-figure .longhorn{ 
+/*figure .longhorn{ 
 	padding-bottom: 1000px;	
 	padding-left: 150px;
 	position: relative;	
 
-}
+}*/
 
 .clearfix:after {
      content:'';
