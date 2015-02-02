@@ -6,22 +6,27 @@ body {
 	background: #DAF4F0;
 }
 h2 {
-	font-family: 'lora', serif;
+	font-family: 'play', sans-serif;
 	font-size: 2em;
 	text-align: center;
+	letter-spacing: 1.25px;
+	padding-bottom: 5px;
 }
 
 p {
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Playfair Display', serif;
+	letter-spacing: 1px;
 	font-size: 1em;
 	color: #094346;
 	text-align: center;
+	padding-right: 50px;
+	padding-left: 50px;
 }
 
 li {
-	font-family: 'play', sans-serif;
+	font-family: 'Raleway', cursive;
 	font-weight: bolder;
-	font-size: 1em;
+	font-size: 50%;
 	color: #094346;
 }
 
@@ -36,6 +41,7 @@ header {
 nav {
 	background-color: #E0EEEE;
 	width: 100%;
+
 	
 }
 
@@ -75,28 +81,49 @@ li :hover {
 	padding-left: 50px;
 	
 }
-div #container{
-	width: 400px;
+/*div #container{
+	width: 1280px;
 	margin: 0 auto;
 
 
 }
-.pic{
-	width: 365px;
+/*.pic{
+	width: 200px;
 	padding: 0 5px;
 	float: left;
 
-}
-
-/*figure .dog{
-	
-	border: solid black;
-		
-}
-
-figure .blue {
-	
 }*/
+
+#longhorn {
+	margin-top: 25px;
+	margin-left: 25px;
+	border: solid #094346;
+	max-width: 500px;
+	height: auto;
+	margin-top: 500px;
+	
+}
+#blue {
+	position: absolute;
+	margin-top: 300px;
+	border: solid #094346;
+	
+}
+#dog {
+	clear: right;
+	border: solid #094346;
+	max-width: 500px;
+	height: auto;
+}
+#garden {
+	clear: both;
+	height:auto;
+	border: solid #094346;
+	float: right;
+	margin-right: 150px;
+	margin-bottom: 100px;
+}
+
 
 header img {
 	margin: 0px auto;
@@ -104,15 +131,21 @@ header img {
 	padding-top: 25px;
 	
 }
+figcaption {
+	background-color: #094346;
+	color: #C2F2EA;
+
+}
 footer {
 	text-align: center;
 	background-color: #C2F2EA;
 	border: 5px solid black;
 	padding: 50px;
 	font-size: 2em;
-	font-family:'lobster', sans-serif;
+	font-family:'play', sans-serif;
 	margin-top: 100px;
 	clear: both;
+	
 
 }
 
@@ -122,8 +155,12 @@ footer {
 	background-color: #B8FFDB;
 	border: 5px solid black;
 	padding: 200px;
-	text-decoration: none;
+	
 
+}
+footer a {
+	text-decoration: none;
+	color: #993399;
 }
 /*figure .longhorn{ 
 	padding-bottom: 1000px;	
