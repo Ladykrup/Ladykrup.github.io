@@ -21,12 +21,13 @@ p {
 	text-align: center;
 	padding-right: 50px;
 	padding-left: 50px;
+	line-height: 125%;
 }
 
 li {
 	font-family: 'Raleway', cursive;
 	font-weight: bolder;
-	font-size: 50%;
+	font-size: 12px;
 	color: #094346;
 }
 
@@ -63,6 +64,8 @@ nav ul li {
 nav a {
 	text-decoration: none;
 	color: #094346;	
+	font-size: .75em;
+	padding: 10px;
 }
 
 li :hover {
@@ -76,7 +79,7 @@ li :hover {
 	margin-right: auto;
 	margin-left: auto;
 	font-size: 1.5em;
-	margin-top: 80px;
+	margin-top: 50px;
 	margin-bottom: 10px;	
 	padding-left: 50px;
 	
@@ -95,9 +98,8 @@ li :hover {
 }*/
 
 #longhorn {
-	margin-top: 25px;
-	margin-left: 25px;
-	border: solid #094346;
+	padding-left: 700px;
+	border: solid #8C8C8C;
 	max-width: 500px;
 	height: auto;
 	margin-top: 500px;
@@ -105,20 +107,20 @@ li :hover {
 }
 #blue {
 	position: absolute;
-	margin-top: 300px;
-	border: solid #094346;
+	margin-top: 100px;
+	border: solid #8C8C8C;
 	
 }
 #dog {
 	clear: right;
-	border: solid #094346;
+	border: solid #8C8C8C;
 	max-width: 500px;
 	height: auto;
 }
 #garden {
 	clear: both;
 	height:auto;
-	border: solid #094346;
+	border: solid #8C8C8C;
 	float: right;
 	margin-right: 150px;
 	margin-bottom: 100px;
@@ -128,12 +130,13 @@ li :hover {
 header img {
 	margin: 0px auto;
 	display: block;
-	padding-top: 25px;
+	padding-top: 20px;
 	
 }
 figcaption {
-	background-color: #094346;
-	color: #C2F2EA;
+	background-color: #8C8C8C;
+	color: #2B2B2B;
+	font-family: "playfair";
 
 }
 footer {
@@ -161,6 +164,7 @@ footer {
 footer a {
 	text-decoration: none;
 	color: #993399;
+	font-family: "Raleway", sans-serif;
 }
 /*figure .longhorn{ 
 	padding-bottom: 1000px;	
