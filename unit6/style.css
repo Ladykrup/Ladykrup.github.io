@@ -84,18 +84,11 @@ li :hover {
 	padding-left: 50px;
 	
 }
-/*div #container{
-	width: 1280px;
-	margin: 0 auto;
-
-
+#main {
+	display: block;
+	background-color: gray;
 }
-/*.pic{
-	width: 200px;
-	padding: 0 5px;
-	float: left;
 
-}*/
 
 #longhorn {
 	padding-left: 700px;
