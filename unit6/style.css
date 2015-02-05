@@ -84,32 +84,39 @@ li :hover {
 	padding-left: 50px;
 	
 }
-#main {
+main {
 	display: block;
-	background-color: gray;
+	background-color: #B6B6B4;
+	margin-top: -300px;
+
 }
 
 
 #longhorn {
 	padding-left: 700px;
-	border: solid #8C8C8C;
-	max-width: 500px;
+	margin-top: 20px;
 	height: auto;
-	margin-top: 500px;
+	margin-left: 20px;
 	
 }
 #blue {
 	position: absolute;
-	margin-top: 100px;
+	margin-top: 400px;
+	margin-left: 40px;
+	height: auto;
 	border: solid #8C8C8C;
 	
 }
 #dog {
+
+	position: relative;
 	clear: right;
 	border: solid #8C8C8C;
+	margin-top: -200px;
 	max-width: 500px;
-	height: auto;
+	margin-left: 40px;
 }
+
 #garden {
 	clear: both;
 	height:auto;
@@ -127,8 +134,7 @@ header img {
 	
 }
 figcaption {
-	background-color: #8C8C8C;
-	color: #2B2B2B;
+	color: #E0FFFF;
 	font-family: "playfair";
 
 }
