@@ -94,8 +94,8 @@ main {
 
 #longhorn {
 	padding-left: 700px;
-	margin-top: 20px;
-	height: auto;
+	margin-top: 300px;
+	
 	margin-left: 20px;
 	
 }
@@ -110,10 +110,9 @@ main {
 #dog {
 
 	position: relative;
-	clear: right;
-	border: solid #8C8C8C;
-	margin-top: -200px;
-	max-width: 500px;
+	border: solid #008080;
+	margin-top: 400px;
+	
 	margin-left: 40px;
 }
 
@@ -123,7 +122,7 @@ main {
 	border: solid #8C8C8C;
 	float: right;
 	margin-right: 150px;
-	margin-bottom: 100px;
+	margin-top: 300px;
 }
 
 
@@ -162,7 +161,7 @@ footer {
 }
 footer a {
 	text-decoration: none;
-	color: #993399;
+	color: #008080;
 	font-family: "Raleway", sans-serif;
 }
 /*figure .longhorn{ 
