@@ -40,14 +40,14 @@ header {
 }
 
 nav {
-	background-color: #E0EEEE;
+	background-color: #DAF4F0;
 	width: 100%;
 
 	
 }
 
 nav ul {
-	width: 400px;
+	width: 500px;
 	margin: 10px auto;
 	color: #094346;	
 
@@ -84,15 +84,23 @@ li :hover {
 	padding-left: 50px;
 	
 }
+
 main {
 	display: block;
 	background-color: #B6B6B4;
-	margin-top: -300px;
+	margin: 20px auto;
+	width: 80%;
 
+}
+figure{
+	float: left;
+	display: block;
+	margin: 20px;
 }
 
 
-#longhorn {
+/*#longhorn {
+	
 	padding-left: 700px;
 	margin-top: 300px;
 	
@@ -100,7 +108,7 @@ main {
 	
 }
 #blue {
-	position: absolute;
+	
 	margin-top: 400px;
 	margin-left: 40px;
 	height: auto;
@@ -109,8 +117,8 @@ main {
 }
 #dog {
 
-	position: relative;
-	border: solid #008080;
+	
+	border: 1px solid #008080;
 	margin-top: 400px;
 	
 	margin-left: 40px;
@@ -123,7 +131,7 @@ main {
 	float: right;
 	margin-right: 150px;
 	margin-top: 300px;
-}
+}*/
 
 
 header img {
@@ -164,12 +172,7 @@ footer a {
 	color: #008080;
 	font-family: "Raleway", sans-serif;
 }
-/*figure .longhorn{ 
-	padding-bottom: 1000px;	
-	padding-left: 150px;
-	position: relative;	
 
-}*/
 
 .clearfix:after {
      content:'';
