@@ -57,7 +57,8 @@ nav ul li {
 	
 	float: left;
 	padding: 20px;
-	font-size: 1.5em;
+	font-size: 1em;
+	margin-left: 20px;
 	
 }
 
@@ -87,7 +88,7 @@ li :hover {
 
 main {
 	display: block;
-	background-color: #B6B6B4;
+	background-color: #C2F2EA;
 	margin: 20px auto;
 	width: 80%;
 
@@ -96,6 +97,8 @@ figure{
 	float: left;
 	display: block;
 	margin: 20px;
+	border: solid 5px;
+	border-color: #094346;
 }
 
 
@@ -141,7 +144,7 @@ header img {
 	
 }
 figcaption {
-	color: #E0FFFF;
+	color: #094346;
 	font-family: "playfair";
 
 }
@@ -150,9 +153,10 @@ footer {
 	background-color: #C2F2EA;
 	border: 5px solid black;
 	padding: 50px;
-	font-size: 2em;
+	font-size: 1em;
 	font-family:'play', sans-serif;
-	margin-top: 100px;
+	margin-top: 75px;
+	margin-right: 45px;
 	clear: both;
 	
 
