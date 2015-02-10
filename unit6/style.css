@@ -47,8 +47,10 @@ nav {
 }
 
 nav ul {
-	width: 500px;
-	margin: 10px auto;
+	/*width was 500px*/
+	width: 30%;
+	/*margin was 10px*/
+	margin: 5% auto;
 	color: #094346;	
 
 }
@@ -56,9 +58,10 @@ nav ul {
 nav ul li {
 	
 	float: left;
-	padding: 20px;
+	/*pading was 20px*/
+	padding: 2%;
 	font-size: 1em;
-	margin-left: 20px;
+	margin-left: 2%;
 	
 }
 
