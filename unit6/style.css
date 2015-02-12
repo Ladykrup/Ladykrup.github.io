@@ -10,7 +10,7 @@ h2 {
 	font-size: 2em;
 	text-align: center;
 	letter-spacing: 1.25px;
-	padding-bottom: 5px;
+	padding-bottom: 0.3125em;
 }
 
 p {
@@ -19,15 +19,15 @@ p {
 	font-size: 1em;
 	color: #094346;
 	text-align: center;
-	padding-right: 50px;
-	padding-left: 50px;
+	padding-right: 4%;
+	padding-left: 4%;
 	line-height: 125%;
 }
 
 li {
 	font-family: 'Raleway', cursive;
 	font-weight: bolder;
-	font-size: 12px;
+	font-size: .75em;
 	color: #094346;
 }
 
@@ -36,6 +36,7 @@ header {
 	background-image: url("images/garden.jpg");
 	background: no-repeat: repeat;
 	background-size: 100% 100%;
+	width: 100%;
 
 }
 
@@ -73,43 +74,45 @@ nav a {
 }
 
 li :hover {
-	background-color: #7EB6FF;
+	background-color: #70F0DA;
 }
 
 #about {	
 
+	width: 100%;
 	text-align: center;
 	color: #094346;
 	margin-right: auto;
 	margin-left: auto;
 	font-size: 1.5em;
-	margin-top: 50px;
-	margin-bottom: 10px;	
-	padding-left: 50px;
+	margin-top: 4%;
+	margin-bottom: 1%;	
+	/*margin top 50px, bottom 50px, pad left 10%*/
+	padding-left: 4%;
 	
 }
 
 main {
 	display: block;
 	background-color: #C2F2EA;
-	margin: 20px auto;
+	margin: 2% auto;
 	width: 80%;
 
 }
 figure{
 	float: left;
 	display: block;
-	margin: 20px;
-	border: solid 5px;
+	margin: 2%;
+	border: solid 1%;
 	border-color: #094346;
 }
 
 
 /*#longhorn {
-	
+
+	width: 33%;
 	padding-left: 700px;
-	margin-top: 300px;
-	
+	margin-top: 300px;	
 	margin-left: 20px;
 	
 }
@@ -143,7 +146,8 @@ figure{
 header img {
 	margin: 0px auto;
 	display: block;
-	padding-top: 20px;
+	padding-top: 2%;
+	width: 37%;
 	
 }
 figcaption {
@@ -154,19 +158,20 @@ figcaption {
 footer {
 	text-align: center;
 	background-color: #C2F2EA;
-	border: 5px solid black;
-	padding: 50px;
+	outline: 5px solid black;
+	padding: 4%;
 	font-size: 1em;
 	font-family:'play', sans-serif;
-	margin-top: 75px;
-	margin-right: 45px;
+	width: 96%;
+	margin-top: 6%;
+	margin-right: 4%;
 	clear: both;
 	
 
 }
 
  footer p a {
-	font-size: 20px;
+	font-size: 1.25em;
 	text-align: center;
 	background-color: #B8FFDB;
 	border: 5px solid black;
@@ -186,3 +191,22 @@ footer a {
      display:block;
      clear:both;
 }
+
+/*@ media only screen and (min-width: 320px) 
+and (max-width: 480px) {
+	nav ul li {
+	
+	float: none;
+	/*pading was 20px
+	padding: 2%;
+	font-size: 1em;
+	margin-left: 2%;
+	
+}/*
+
+
+}
+
+
+	
+
