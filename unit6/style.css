@@ -40,6 +40,14 @@ header {
 
 }
 
+header img {
+	margin: 0px auto;
+	display: block;
+	padding-top: 2%;
+	width: 37%;
+
+	}
+
 nav {
 	background-color: #DAF4F0;
 	width: 100%;
@@ -105,6 +113,7 @@ figure{
 	margin: 2%;
 	border: solid 1%;
 	border-color: #094346;
+
 }
 
 
@@ -143,13 +152,9 @@ figure{
 }*/
 
 
-header img {
-	margin: 0px auto;
-	display: block;
-	padding-top: 2%;
-	width: 37%;
+
 	
-}
+
 figcaption {
 	color: #094346;
 	font-family: "playfair";
@@ -158,7 +163,7 @@ figcaption {
 footer {
 	text-align: center;
 	background-color: #C2F2EA;
-	outline: 5px solid black;
+	border: 5px solid black;
 	padding: 4%;
 	font-size: 1em;
 	font-family:'play', sans-serif;
@@ -192,20 +197,37 @@ footer a {
      clear:both;
 }
 
-/*@ media only screen and (min-width: 320px) 
-and (max-width: 480px) {
-	nav ul li {
+@media only screen and (min-width: 320px) and (max-width: 400px) {
+
+	/*nav ul li {
 	
 	float: none;
-	/*pading was 20px
 	padding: 2%;
 	font-size: 1em;
 	margin-left: 2%;
-	
-}/*
-
+}*/
+header img {
+	width: 90%;
 
 }
+main {
+	width: 100%;
+}
+figure {
+	float: none;
+	width: 90%;
+	margin: 2% auto;
+
+}
+
+figure img {
+	width: 100%;
+}
+	
+}
+
+
+
 
 
 	
