@@ -48,6 +48,30 @@ header img {
 
 	}
 
+#early h1 {
+		text-align: center;
+		color: #094346;
+		font-size: 2em;
+		font-family: 'play';
+	}
+#early figure {
+	display: block;
+}
+
+#early main {
+	display: block;
+	background-color: #C2F2EA;
+	margin: 2% auto;
+	width: 80%;
+
+}
+#abstract h1 {
+	text-align: center;
+	font-size: 2em;
+	font-family: 'play';
+	
+}
+
 nav {
 	background-color: #DAF4F0;
 	width: 100%;
@@ -107,12 +131,13 @@ main {
 	width: 80%;
 
 }
-figure{
+figure {
 	float: left;
 	display: block;
 	margin: 2%;
 	border: solid 1%;
 	border-color: #094346;
+
 
 }
 
@@ -171,9 +196,10 @@ footer {
 	margin-top: 6%;
 	margin-right: 4%;
 	clear: both;
+}
 	
 
-}
+
 
  footer p a {
 	font-size: 1.25em;
@@ -181,19 +207,21 @@ footer {
 	background-color: #B8FFDB;
 	border: .3125em solid black;
 	padding: 15%;
+}
 	
 
-}
 
-footer a :hover {
-	background-color: #70F0DA;
-
-}
 
 footer a {
 	text-decoration: none;
 	color: #094346;
 	font-family: "Raleway", sans-serif;
+
+}
+
+
+footer a :hover {
+	background-color: #70F0DA;
 
 }
 
