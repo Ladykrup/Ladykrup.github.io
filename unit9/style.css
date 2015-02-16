@@ -91,6 +91,18 @@ header img {
 	margin: 2% auto;
 	width: 80%;
 }
+#texas h1 {
+	text-align: center;
+	font-size: 2em;
+	font-family: 'play';
+	color: #094346;
+}
+#texas li {
+	font-size: 1.5em;
+	font-family: 'raleway';
+	font-weight: bolder
+
+}
 
 nav {
 	background-color: #DAF4F0;
