@@ -61,7 +61,14 @@ header img {
 #early li {
 	font-size: 1.5em;
 	font-family: 'raleway';
-	font-weight: bolder;
+	font-weight: bolder
+
+}
+#abstract li {
+	font-size: 1.5em;
+	font-family: 'raleway';
+	font-weight: bolder
+
 }
 
 #early main {
