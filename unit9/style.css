@@ -56,7 +56,12 @@ header img {
 	}
 #early figure {
 	display: block;
-	
+
+}
+#early li {
+	font-size: 1.5em;
+	font-family: 'raleway';
+	font-weight: bolder;
 }
 
 #early main {
@@ -70,7 +75,14 @@ header img {
 	text-align: center;
 	font-size: 2em;
 	font-family: 'play';
+	color: #094346;
 
+}
+#abstract main {
+	display: block;
+	background-color: #c2f2ea; 
+	margin: 2% auto;
+	width: 80%;
 }
 
 nav {
@@ -184,6 +196,7 @@ figure {
 figcaption {
 	color: #094346;
 	font-family: "playfair";
+	font-size: 1em;
 
 }
 footer {
