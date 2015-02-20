@@ -34,7 +34,7 @@ li {
 }
 
 header {
-	height: 16%;
+	height: 50%;
 	background-image: url("images/garden.jpg");
 	background: no-repeat: repeat;
 	background-size: 100% 100%;
@@ -116,7 +116,7 @@ nav {
 
 nav ul {
 	/*width was 500px*/
-	width: 30%;
+	width: 50%;
 	/*margin was 10px*/
 	margin: 5% auto;
 	color: #094346;	
@@ -228,7 +228,7 @@ footer {
 	padding: 4%;
 	font-size: 1em;
 	font-family:'play', sans-serif;
-	width: 96%;
+	width: 80%;
 	/*margin-top: 6%;
 	margin-right: 4%;*/
 	clear: both;
