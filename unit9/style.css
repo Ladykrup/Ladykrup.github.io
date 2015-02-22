@@ -22,7 +22,7 @@ p {
 	padding-right: 4%;
 	padding-left: 4%;
 	line-height: 125%;
-	max-width: 800px;
+	max-width: 60%;
 	margin: 0 auto;
 }
 
@@ -116,7 +116,8 @@ nav {
 
 nav ul {
 	/*width was 500px*/
-	width: 50%;
+	width: 70%;
+
 	/*margin was 10px*/
 	margin: 5% auto;
 	color: #094346;	
@@ -228,7 +229,7 @@ footer {
 	padding: 4%;
 	font-size: 1em;
 	font-family:'play', sans-serif;
-	width: 80%;
+	width: 60%;
 	/*margin-top: 6%;
 	margin-right: 4%;*/
 	clear: both;
@@ -251,8 +252,10 @@ footer {
 
 footer a {
 	text-decoration: none;
-	color: #094346;
+	color: #ff0000;
 	font-family: "Raleway", sans-serif;
+	font-weight: bolder;
+	font-style: oblique;
 
 }
 
@@ -285,6 +288,11 @@ header img {
 	font-size: 1.25em;
 }
 
+p { 
+max-width: 80%;
+
+}
+
 h2 {
 	font-size: 1.5em;
 }
@@ -313,6 +321,9 @@ footer {
 	border: .3125em #094346;
 }
 	
+nav ul {
+	width: 90%;
+	font-size: .75em;
 }
 
 
