@@ -321,9 +321,10 @@ footer {
 	border: .3125em #094346;
 }
 	
-nav ul {
+nav ul li{
 	width: 90%;
 	font-size: .75em;
+	float: none;
 }
 
 
