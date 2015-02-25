@@ -122,7 +122,7 @@ nav {
 
 nav ul {
 	/*width was 500px*/
-	width: 70%;
+	width: 40%;
 
 	/*margin was 10px*/
 	margin: 5% auto;
@@ -148,7 +148,7 @@ nav a {
 	color: #094346;	
 	font-size: .75em;
 	padding: .625em;
-	border: .25em solid #3B9C9C;
+	border: .25em solid #48CCCD;
 	/*margin: 0 auto;
 	position: relative;*/
 
