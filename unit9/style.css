@@ -3,7 +3,8 @@
 body {
 	font-family: 'play', sans-serif;
 	font-size: 16px;
-	background: #DAF4F0;
+	/*background: #DAF4F0;*/
+	background-color: #2B3856;
 }
 h2 {
 	font-family: 'play', sans-serif;
@@ -13,13 +14,15 @@ h2 {
 	padding-bottom: 0.3125em;
 	margin: 0 auto;
 	max-width: 60%;
+	color: #fff;
 }
 
 p {
 	font-family: 'Playfair Display', serif;
 	letter-spacing: .0625em;
 	font-size: 1em;
-	color: #094346;
+	/*color: #094346;*/
+	color: #fff;
 	text-align: center;
 	padding-right: 4%;
 	padding-left: 4%;
@@ -32,12 +35,13 @@ li {
 	font-family: 'Raleway', sans-serif;
 	font-weight: bolder;
 	font-size: 1.5em;
-	color: #094346;
+	/*color: #094346;*/
+	color: #fff;
 }
 
 header {
 	height: 50%;
-	background-image: url("images/garden.jpg");
+	background-image: url("images/untitledgreen.jpg");
 	background: no-repeat: repeat;
 	background-size: 100% 100%;
 	width: 100%;
@@ -64,24 +68,25 @@ header img {
 
 }
 #early li {
-	font-size: 1.5em;
+	font-size: 1em;
 	font-family: 'raleway';
 	font-weight: bolder
 
 }
 #abstract li {
-	font-size: 1.5em;
+	font-size: 1em;
 	font-family: 'raleway';
 	font-weight: bolder;
 	float: left;
 	
-	clear: both;
+	
 
 }
 
 #early main {
 	display: block;
-	background-color: #C2F2EA;
+	/*background-color: #C2F2EA;*/
+	background-color: #2B3856;
 	margin: 2% auto;
 	width: 80%;
 
@@ -106,7 +111,7 @@ header img {
 	color: #094346;
 }
 #texas li {
-	font-size: 1.5em;
+	font-size: 1em;
 	font-family: 'raleway';
 	font-weight: bolder
 
@@ -133,7 +138,8 @@ nav ul {
 
 	/*margin was 10px*/
 	margin: 5% auto;
-	color: #094346;	
+	/*color: #094346;*/
+	color: #fff;	
 
 
 
@@ -156,10 +162,8 @@ nav a {
 	color: #094346;	
 	font-size: 1.5em;
 	padding: .625em;
-	border: .25em solid #48CCCD;
-	
-	/*margin: 0 auto;
-	position: relative;*/
+	/*border: .25em solid #48CCCD;*/
+	border: .25em solid #fff;
 
 	
 }
@@ -173,7 +177,8 @@ li :hover {
 
 	max-width: 80%;
 	text-align: center;
-	color: #094346;
+	/*color: #094346;*/
+	color: #2B3856;
 	margin-right: 0;
 	margin-left: 0;
 	font-size: 1.5em;
@@ -193,7 +198,7 @@ li :hover {
 
 main {
 	display: block;
-	background-color: #C2F2EA;
+	background-color: #2B3856;
 	margin: 2% auto;
 	width: 80%;
 
@@ -202,8 +207,9 @@ figure {
 	float: left;
 	display: block;
 	margin: 2%;
-	border: solid 1%;
-	border-color: #094346;
+	border: solid .25em;
+	/*border-color: #094346;*/
+	border-color: #fff;
 	width: 44%;
 	
 
@@ -221,7 +227,8 @@ figure img {
 	
 
 figcaption {
-	color: #094346;
+	/*color: #094346;*/
+	color: #fff;
 	font-family: "playfair";
 	font-size: 1.5em;
 	padding-top: .5em;
@@ -229,7 +236,8 @@ figcaption {
 }
 footer {
 	text-align: center;
-	background-color: #C2F2EA;
+	/*background-color: #C2F2EA;*/
+	background-color: #2B3856;
 	border: .3125em solid #48CCCD;
 	
 	padding: 4%;
@@ -278,7 +286,7 @@ footer p {
 
 
 footer a :hover {
-	background-color: #70F0DA;
+	color: #70F0DA;
 
 }
 
