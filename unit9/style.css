@@ -11,6 +11,8 @@ h2 {
 	text-align: center;
 	letter-spacing: .078125em;
 	padding-bottom: 0.3125em;
+	margin: 0 auto;
+	max-width: 60%;
 }
 
 p {
@@ -23,13 +25,13 @@ p {
 	padding-left: 4%;
 	line-height: 125%;
 	max-width: 60%;
-	margin: 0 auto;
+	margin: 0;
 }
 
 li {
 	font-family: 'Raleway', sans-serif;
 	font-weight: bolder;
-	font-size: .75em;
+	font-size: 1.5em;
 	color: #094346;
 }
 
@@ -70,7 +72,10 @@ header img {
 #abstract li {
 	font-size: 1.5em;
 	font-family: 'raleway';
-	font-weight: bolder
+	font-weight: bolder;
+	float: left;
+	
+	clear: both;
 
 }
 
@@ -108,13 +113,15 @@ header img {
 }
 
 nav {
-	background-color: #DAF4F0;
+	
 	width: 100%;
 	
 	list-style: none;
 	margin: 0;
 	padding: 0;
 	text-align: center;
+	display: block;
+
 
 
 	
@@ -122,7 +129,7 @@ nav {
 
 nav ul {
 	/*width was 500px*/
-	width: 40%;
+	width: 50%;
 
 	/*margin was 10px*/
 	margin: 5% auto;
@@ -140,16 +147,17 @@ nav ul li {
 	font-size: 1em;
 	margin-left: 2%;
 
+
 	
 }
 
 nav a {
 	text-decoration: none;
 	color: #094346;	
-	font-size: .75em;
+	font-size: 1.5em;
 	padding: .625em;
 	border: .25em solid #48CCCD;
-	border-radius: 50%;
+	
 	/*margin: 0 auto;
 	position: relative;*/
 
@@ -163,17 +171,24 @@ li :hover {
 
 #about {	
 
-	width: 100%;
+	max-width: 80%;
 	text-align: center;
 	color: #094346;
-	margin-right: auto;
-	margin-left: auto;
+	margin-right: 0;
+	margin-left: 0;
 	font-size: 1.5em;
 	margin-top: 4%;
 	margin-bottom: 1%;	
-	/*margin top 50px, bottom 50px, pad left 10%*/
-	padding-left: 4%;
 	
+}
+#meshanna {
+	width: 40%;
+	float; right;
+	clear: both;
+
+
+	
+
 }
 
 main {
@@ -194,93 +209,72 @@ figure {
 
 
 }
+/*figcaption {
+	font-size: 12em;
+	color: #094346;
+}*/
 figure img {
 	width: 100%;
 	display: block;
 }
-
-
-/*#longhorn {
-
-	width: 33%;
-	padding-left: 700px;
-	margin-top: 300px;	
-	margin-left: 20px;
-	
-}
-#blue {
-	
-	margin-top: 400px;
-	margin-left: 40px;
-	height: auto;
-	border: solid #8C8C8C;
-	
-}
-#dog {
-
-	
-	border: 1px solid #008080;
-	margin-top: 400px;
-	
-	margin-left: 40px;
-}
-
-#garden {
-	clear: both;
-	height:auto;
-	border: solid #8C8C8C;
-	float: right;
-	margin-right: 150px;
-	margin-top: 300px;
-}*/
-
-
 
 	
 
 figcaption {
 	color: #094346;
 	font-family: "playfair";
-	font-size: 1em;
+	font-size: 1.5em;
+	padding-top: .5em;
 
 }
 footer {
 	text-align: center;
 	background-color: #C2F2EA;
-	border: .3125em solid #094346;
-	border-radius: 50%;
+	border: .3125em solid #48CCCD;
+	
 	padding: 4%;
-	font-size: 1em;
+	font-size: 1.5em;
 	font-family:'play', sans-serif;
 	width: 60%;
-	/*margin-top: 6%;
-	margin-right: 4%;*/
 	clear: both;
 	margin: 0 auto;
+	margin-bottom: 4%;
+
 }
-	
+
+footer a {
+	text-decoration: none;
+	color: red;
+}
+footer p {
+	max-width: 90%;
+	text-align: center;
+
+}
 
 
-
- footer p a {
-	font-size: 1.25em;
+ /*footer p a {
+	/*font-size: 1.25em;
 	text-align: center;
 	background-color: #B8FFDB;
 	border: .3125em solid black;
 	padding: 15%;
-}
+	margin: 0 auto;
+	width: 30%;*/
+
 	
 
 
 
-footer a {
+/*footer a {
 	text-decoration: none;
 	color: #ff0000;
 	font-family: "Raleway", sans-serif;
 	font-weight: bolder;
 	font-style: oblique;
+	text-align: center;*/
 
-}
+
 
 
 footer a :hover {
