@@ -31,7 +31,7 @@ h2 {
 	padding-bottom: 0.3125em;
 	margin: 0 auto;
 	max-width: 60%;
-	color: #D1D0CE;
+	color: #B6B6B4;
 }
 
 p {
@@ -40,7 +40,7 @@ p {
 	letter-spacing: .0625em;
 	font-size: 1em;
 	/*color: #094346;*/
-	color: #D1D0CE;
+	color: #B6B6B4;
 	text-align: center;
 	padding-right: 4%;
 	padding-left: 4%;
@@ -53,7 +53,7 @@ nav {
 	width: 100%;
 	
 	list-style: none;
-	margin: 0;
+	margin-bottom: 100px;
 	padding: 0;
 	text-align: center;
 	display: block;
@@ -74,7 +74,8 @@ li {
 	font-weight: bold;
 	font-size: 1.5em;
 	/*color: #094346;*/
-	color: #D1D0CE;
+	/*color: #D1D0CE;*/
+	color: #B6B6B4;
 }
 
 nav ul {
@@ -84,7 +85,7 @@ nav ul {
 	/*margin was 10px*/
 	margin: 5% auto;
 	/*color: #094346;*/
-	color: #D1D0CE;	
+	color: #B6B6B4;	
 }
 
 nav ul li {		
@@ -96,11 +97,11 @@ nav ul li {
 
 nav a {
 	text-decoration: none;
-	color: #D1D0CE;	
+	color: #B6B6B4;	
 	font-size: 1.5em;
 	padding: .625em;
 	/*border: .25em solid #48CCCD;*/
-	border: .1em solid #D1D0CE;	
+	border: .1em solid #B6B6B4;	
 }
 
 li :hover {
@@ -109,26 +110,29 @@ li :hover {
 
 #about {	
 
-	max-width: 80%;
-	/*text-align: center;
-	color: #094346;*/
+	max-width: 700px;
+	max-height: 700px;
+	padding-left: 200px;
 	color: #2B3856;
 	/*margin-right: 0;
 	margin-left: 0;*/
 	font-size: 1.5em;
 	/*margin-top: 4%;*/
 	margin-bottom: 4%;
-	display: block;
-	float: right;
-	overflow: hidden;
+	display: inline-block;
+	float: left;
+	
 }
 
 #meshanna {
 	max-width: 15%;
 	float; left;
-	clear: both;
+	display: inline-block;
 	margin-top: 5%;
-	margin-left: 5%;	
+	margin-left: 5%;
+
+
+		
 
 }
 
@@ -137,7 +141,7 @@ main {
 	background-color: #2C3539;
 	margin: 3% auto;
 	width: 60%;
-	border: .1em solid #D1D0CE;
+	border: .1em solid #B6B6B4;
 	padding-top: 1%;
 
 }
@@ -154,7 +158,7 @@ main {
 
 #early h1 {
 		text-align: center;
-		color: #D1D0CE;
+		color: #B6B6B4;
 		font-size: 2em;
 		font-family: 'Source Sans Pro', sans-serif;
 	}
@@ -171,7 +175,7 @@ main {
 	background-color: #2C3539;
 	margin: 2% auto;
 	width: 80%;
-	border: .1em solid #D1D0CE;
+	border: .1em solid #B6B6B4;
 }
 
 #early figure {
@@ -180,7 +184,7 @@ main {
 	width: 500;
 	height: 500;
 	margin: 2%;
-	border: .1em solid #D1D0CE;
+	border: .1em solid #B6B6B4;
 	padding: .1em;
 }
 
@@ -199,7 +203,7 @@ main {
 	text-align: center;
 	font-size: 4em;
 	font-family: 'Source Sans Pro', sans-serif;
-	color: #D1D0CE;
+	color: #B6B6B4;
 }
 
 #abstract main {
@@ -214,11 +218,10 @@ main {
 	float: left;
 	display: block;
 	margin: 2%;
-	border: .1em solid #D1D0CE;
-	padding: .1em;
+	border: .1em solid #B6B6B4
 	
 	/*border-color: #094346;*/
-	border-color: #D1D0CE;
+	border-color: #B6B6B4;
 	height: 400px;
 	width: 350px;
 	overflow: hidden;
@@ -238,7 +241,7 @@ main {
 	text-align: center;
 	font-size: 2em;
 	font-family: 'Source Sans Pro', sans-serif;
-	color: #D1D0CE;
+	color: #B6B6B4;
 }
 #texas li {
 	font-size: 1em;
@@ -272,7 +275,7 @@ figure img {
 
 figcaption {
 	/*color: #094346;*/
-	color: #D1D0CE;
+	color: #B6B6B4;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 1.5em;
 	padding-top: .5em;
@@ -282,7 +285,7 @@ footer {
 	text-align: center;
 	/*background-color: #C2F2EA;*/
 	background-color: #2C3539;
-	border: .1em solid #D1D0CE;
+	border: .1em solid #B6B6B4;
 	
 	padding: 4%;
 	font-size: 1.5em;
