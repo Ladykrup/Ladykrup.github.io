@@ -37,6 +37,8 @@ h2 {
 	margin: 0 auto;
 	max-width: 60%;
 	color: #0C090A;
+	margin-right: 302px;
+	
 
 }
 
@@ -45,14 +47,14 @@ p {
 	font-weight: lighter;
 	letter-spacing: .0625em;
 	font-size: 1em;
-	/*color: #094346;*/
-	color: #0C090A;
+	color: #094346;
+	/*color: #0C090A;*/
 	text-align: center;
-	padding-right: 4%;
-	padding-left: 4%;
+	/*padding-right: 4%;
+	padding-left: 4%;*/
 	line-height: 125%;
-	max-width: 60%;
-	margin: 0 auto;
+	max-width: 40%;
+	margin: 4px auto;
 	background-color: #fff;
 
 }
@@ -60,7 +62,7 @@ p {
 	
 li {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: lighter;
+	font-weight: bolder;
 	font-size: 1.5em;
 	color: #fff;
 
@@ -79,7 +81,8 @@ nav ul li {
 	float: left;
 	padding: 2%;
 	font-size: 1em;
-	margin-left: 2%;	
+	margin-left: 2%;
+	margin-bottom: 67px;	
 }
 
 nav a {
@@ -93,8 +96,11 @@ nav a {
 
 }
 
-li :hover {
-	color: #0020C2;
+/*li :hover {
+	color: #FF4136;
+}*/
+ul :hover {
+	background-color: #FF4136;
 }
 
  h1 {
@@ -105,25 +111,53 @@ li :hover {
 	padding: 60px;
 }
 
+/*#wrapper {
+	width: 1050px;
+	height: 200px;
+	left-margin:50px;
+}*/
+
+#meshanna {
+
+	/*margin: 15px;
+	margin-top: 40px;
+	margin-left: 40px;
+	/*margin-right: 100px;*/
+	width: 200px;
+	height: 180px;
+	border: solid .1em #0C090A;
+	margin-top: 50px;
+	margin-left: 80px;
+	float: left;
+
+}
+figure img {
+	height: 180px;
+	width: 200px;
+}
+/*#about {
+	margin-top: -100px;
+	/*margin-left: 500px;
+	margin-bottom: 300px;
+}*/
+
 #about {	
 
 
-	width: 65%;
-	height: 50%;
+	width: 700px;
+	height: 200px;
 	color: #fff;
 	font-size: 1.5em;
-	margin-right: 16%;
-	background-color: #fff;
-	margin-top: 3%;
-	display: block;
-	float: right;
-	position: relative;
-	top: -250px;
+	display: inline;
+	background-color: #F9A7B0;
+
+	
+	
 
 
 }
 
-#meshanna {
+/*#meshanna {
 	width: 16%;
 	height: 21%;
 	float; right;
@@ -132,16 +166,17 @@ li :hover {
 
 	
 
-}
+}*/
 
 main {
 	
 	background-color: #fff;
 	margin: 0 auto;
-	width: 100%;
-	padding: 5%;
+	width: 50%;
+	padding: 4%;
 	height: 86%;
-	margin-top: 6%;
+	margin-top: 1%;
+	margin-left: 268px;
 	
 
 }
@@ -154,9 +189,13 @@ main a {
 	border: .25em solid #0C090A;	
 	font-weight: bold;
 	margin: 0 auto;
+
 }
 
-
+main img {
+	margin: 0 auto;
+	/*margin-right: 20px;*/
+}
 
 
 
@@ -248,7 +287,7 @@ main a {
 	display: block;
 	border: 2px solid #0C090A;
 	margin: 0 auto;
-	padding: 145px;
+	padding: 70px;
 
 	
 
@@ -257,6 +296,7 @@ main a {
 #longhorn img{
 	width: 500px;
 	height: 535px;
+	border: 2px solid #0c090a;
 }
 
 #texas img {
@@ -305,23 +345,22 @@ footer {
 	
 	border: .1em solid #0C090A;
 	
-	padding: 5%;
+	padding: 3%;
 	font-size: 1.5em;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: bolder;
-	width: 100%;
-	height: 40%;
-	margin-bottom: 4%;
+	width: 70%;
+	height: 20%;
+	margin-bottom: 10%;
 	background-color: #fff;
-	margin-top: 10%;
-
 	
+	margin: 0 auto;	
 
 }
 
 footer a {
 	text-decoration: none;
-	color: red;
+	color: black;
 	margin: 10px auto;
 	display: block;
 	width: 206px;
@@ -334,7 +373,8 @@ footer p {
 }
 
 footer a :hover {
-	color: #70F0DA;
+	/*color: #FF4136;*/
+	background-color: #FF4136;
 	
 
 
